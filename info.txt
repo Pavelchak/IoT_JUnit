@@ -1,0 +1,7 @@
+1.	Create some sample class. Write a test class for it that use:
+•	different asserts
+•	static final constant with package-private (default ) or protected access level
+•	mocks and Mockito.verify
+2.	Write tests for testing void methods, e.g. file creation (that is not unit test actually).
+3.	Create test suite and run it.
+
