@@ -45,4 +45,10 @@ public class Sample {
   public void setValue3(int value3) {
     this.value3 = value3;
   }
+
+  public void getAbbracadabra(int value) throws Exception {
+    if (value == 1) {
+      throw new Exception("Abbracadabra");
+    }
+  }
 }
