@@ -2,7 +2,6 @@ package com.pavelchak.tasks;
 
 import org.junit.jupiter.api.*;
 
-//import static org.junit.Assume.assumeTrue;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
@@ -97,5 +96,4 @@ public class SampleTest {
       sample.getAbbracadabra(2);
     });
   }
-
 }
