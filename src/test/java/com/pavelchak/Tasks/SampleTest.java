@@ -2,8 +2,9 @@ package com.pavelchak.Tasks;
 
 import org.junit.jupiter.api.*;
 
-import static org.junit.Assume.assumeTrue;
+//import static org.junit.Assume.assumeTrue;
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
 public class SampleTest {
 
@@ -66,7 +67,7 @@ public class SampleTest {
   public void test4AddToValue1() {
     count++;
     if (bug) {
-      assumeTrue("Test skipped due to not fixed bug", false);
+      assumeTrue(false, "Test skipped due to not fixed bug");
     } else {
       Sample sample = new Sample("A4");
       sample.setValue1(1);
