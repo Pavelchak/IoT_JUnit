@@ -1,4 +1,4 @@
-package com.pavelchak.Tasks;
+package com.pavelchak.tasks;
 
 public interface CalculatorService {
     public double add(double input1, double input2);

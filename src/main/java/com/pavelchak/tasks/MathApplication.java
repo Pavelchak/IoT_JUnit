@@ -1,4 +1,4 @@
-package com.pavelchak.Tasks;
+package com.pavelchak.tasks;
 
 public class MathApplication {
     private CalculatorService calcService;

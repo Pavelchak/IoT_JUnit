@@ -1,4 +1,4 @@
-package com.pavelchak.Tasks;
+package com.pavelchak.tasks;
 
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;

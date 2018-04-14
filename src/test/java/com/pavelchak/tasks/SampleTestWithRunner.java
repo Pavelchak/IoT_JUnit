@@ -1,7 +1,5 @@
-package com.pavelchak.Tasks;
+package com.pavelchak.tasks;
 
-import java.util.Arrays;
-import java.util.Collection;
 import org.junit.jupiter.api.*;
 
 //@RunWith(Parameterized.class)

@@ -1,4 +1,4 @@
-package com.pavelchak.Tasks;
+package com.pavelchak.tasks;
 
 import static org.junit.jupiter.api.Assertions.fail;
 import static org.junit.jupiter.api.Assumptions.assumeFalse;
@@ -26,6 +26,4 @@ public class JUnit5TestExample2 {
     fail("Hello! :)");
     System.out.println("    Test method 3");
   }
-
-
 }
